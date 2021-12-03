@@ -8,9 +8,6 @@ counter = 0
 # iterate through all items and check if the diff is postitive. count each instance
 for index, item in enumerate(puzzle_input):
 
-    if index == 7:
-        print('test')
-
     if index + 3 == len(puzzle_input):
         print(counter)
         break
