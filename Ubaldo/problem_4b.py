@@ -112,8 +112,6 @@ def main():
 
         if delete_board:
 
-            print(delete_board)
-
             for val in delete_board:
                 try:
                     del board_dict[val]
